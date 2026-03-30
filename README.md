@@ -8,6 +8,8 @@
 
 BonfireMCpetsBridge is the backup and rollback bridge for legacy MCPets data during Bonfire migration work.
 
+> Non-commercial source-available. Commercial use requires prior written permission via `mingxi7707@qq.com`.
+
 ## Highlights
 
 - Creates snapshots before risky migration or cleanup operations.
