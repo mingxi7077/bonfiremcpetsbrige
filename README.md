@@ -1,14 +1,39 @@
 # BonfireMCpetsBridge
 
-位置: `E:\Minecraft\12121\purpur第四版\二、插件开发区\源码工程\bonfiremcpetsbrige`
+![License](https://img.shields.io/badge/license-GPL--3.0-blue)
+![Platform](https://img.shields.io/badge/platform-Paper%201.21.8-brightgreen)
+![Storage](https://img.shields.io/badge/storage-MySQL%20%2B%20SQLite-blueviolet)
+![Status](https://img.shields.io/badge/status-active-success)
 
-说明:
+BonfireMCpetsBridge is the backup and rollback bridge for legacy MCPets data during Bonfire migration work.
 
-- 这是 `BonfireMCpetsBridge` 的独立预研目录。
-- 当前阶段只放需求文档和方案文档, 暂不进入代码开发。
-- 目录名按当前人工创建要求保留为 `bonfiremcpetsbrige`, 插件正式名称统一使用 `BonfireMCpetsBridge`。
+## Highlights
 
-当前文档:
+- Creates snapshots before risky migration or cleanup operations.
+- Supports rollback-oriented admin flows for MCPets player data.
+- Separates source detection, storage, and bridge orchestration into dedicated services.
+- Keeps the historical repository name `bonfiremcpetsbrige`, while the plugin name remains `BonfireMCpetsBridge`.
 
-- `说明书\bonfiremcpetsbrige_功能需求说明_v1_2026-03-07.md`
-- `说明书\bonfiremcpetsbrige_方案设计说明_v1_2026-03-07.md`
+## Core Commands
+
+- `/bonfiremcpetsbridge status`
+- `/bonfiremcpetsbridge backup`
+- `/bonfiremcpetsbridge snapshot`
+- `/bonfiremcpetsbridge rollback`
+- `/bonfiremcpetsbridge cleanup`
+- `/bonfiremcpetsbridge reload`
+
+## Build
+
+```powershell
+.\mvnw.cmd -q -DskipTests package
+```
+
+## Repository Scope
+
+- Source, config templates, and migration notes only.
+- Deployment bundles and local probes are excluded from Git.
+
+## License
+
+GPL-3.0
