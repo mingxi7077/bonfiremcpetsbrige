@@ -1,6 +1,7 @@
 # BonfireMCpetsBridge
 
-![License](https://img.shields.io/badge/license-GPL--3.0-blue)
+![License](https://img.shields.io/badge/license-BNSL--1.0-red)
+![Commercial Use](https://img.shields.io/badge/commercial-use%20by%20written%20permission%20only-critical)
 ![Platform](https://img.shields.io/badge/platform-Paper%201.21.8-brightgreen)
 ![Storage](https://img.shields.io/badge/storage-MySQL%20%2B%20SQLite-blueviolet)
 ![Status](https://img.shields.io/badge/status-active-success)
@@ -36,4 +37,6 @@ BonfireMCpetsBridge is the backup and rollback bridge for legacy MCPets data dur
 
 ## License
 
-GPL-3.0
+Bonfire Non-Commercial Source License 1.0
+
+Commercial use is prohibited unless you first obtain written permission from `mingxi7707@qq.com`.
