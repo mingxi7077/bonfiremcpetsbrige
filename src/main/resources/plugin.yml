@@ -1,0 +1,17 @@
+﻿name: BonfireMCpetsBridge
+version: '${project.version}'
+main: com.bonfire.mcpetsbridge.BonfireMCpetsBridge
+api-version: '1.21'
+description: Backup and rollback bridge for MCPets player data
+authors: [Bonfire]
+softdepend: [MCPets, NBTAPI, ItemsAdder, MMOCore, MythicMobs, ModelEngine, CMI]
+commands:
+  bonfiremcpetsbridge:
+    description: Main command for BonfireMCpetsBridge
+    aliases: [bmcb]
+    permission: bonfire.mcpetsbridge.admin
+    usage: /bonfiremcpetsbridge <status|backup|snapshot|rollback|cleanup|reload>
+permissions:
+  bonfire.mcpetsbridge.admin:
+    default: op
+    description: Allows administrative access to BonfireMCpetsBridge

@@ -1,0 +1,34 @@
+enabled: true
+admin-permission: bonfire.mcpetsbridge.admin
+
+status:
+  show-softdepends: true
+
+storage:
+  sqlite-path: backup.db
+
+backup:
+  interval-minutes: 60
+  retention-days: 7
+  only-when-changed: true
+  include-online-players-only: false
+
+rollback:
+  require-player-offline: true
+  create-pre-rollback-snapshot: true
+  verify-after-apply: true
+  require-confirmation: true
+  confirmation-ttl-seconds: 180
+
+source:
+  mode: auto
+  mcpets-config-path: ../MCPets/config.yml
+  host: 192.168.2.144
+  port: 3306
+  database: mcpets_db1w2
+  user: root
+  # 注意：这是公开仓库场景下的占位符，真实密码请在本地部署/运行时自行替换
+  password: change-me
+  table-prefix: 'mcpets_db1w2'
+  table-name: 'mcpets_db1w2mcpets_player_data'
+  query-timeout-seconds: 15
