@@ -4,6 +4,7 @@ main: com.bonfire.mcpetsbridge.BonfireMCpetsBridge
 api-version: '1.21'
 description: Backup and rollback bridge for MCPets player data
 authors: [Bonfire]
+website: https://github.com/mingxi7077/bonfiremcpetsbrige
 softdepend: [MCPets, NBTAPI, ItemsAdder, MMOCore, MythicMobs, ModelEngine, CMI]
 commands:
   bonfiremcpetsbridge:

@@ -11,6 +11,22 @@
 
     <name>BonfireMCpetsBridge</name>
     <description>Backup and rollback bridge for MCPets player data</description>
+    <url>https://github.com/mingxi7077/bonfiremcpetsbrige</url>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License v3.0</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/mingxi7077/bonfiremcpetsbrige</url>
+        <connection>scm:git:https://github.com/mingxi7077/bonfiremcpetsbrige.git</connection>
+        <developerConnection>scm:git:https://github.com/mingxi7077/bonfiremcpetsbrige.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
     <properties>
         <java.version>21</java.version>
